@@ -1,0 +1,23 @@
+# Ensure in your project directory
+cd your_project_directory
+#https://github.com/shreyansh-ML/movieapp.git
+# Initialize git if not done
+git init
+
+# Stage your files
+git add .
+
+# Commit your changes
+git commit -m "Initial commit"
+
+# Add remote repository
+git remote add origin https://github.com/<username>/simplemovieapp.git
+
+# Check your branch name
+git branch 
+
+# If you are on main, push with:
+git push -u origin main
+
+# If you switched to master, push with:
+git push -u origin master
