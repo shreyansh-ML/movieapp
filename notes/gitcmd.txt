@@ -21,3 +21,6 @@ git push -u origin main
 
 # If you switched to master, push with:
 git push -u origin master
+
+
+git tag -a v1.4 -m "my version 1.4"
